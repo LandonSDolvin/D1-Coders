@@ -11,10 +11,6 @@
   object-fit: contain;
 }
 
-.hero::before {
-  opacity: 0.2;
-}
-
 .hero-container > h1 {
   color: #000957;
   font-size: 100px;

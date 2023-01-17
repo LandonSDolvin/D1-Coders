@@ -1,9 +1,7 @@
 import React from "react";
 
-function JoinedGroups(){
-    return(
-        <div> Joined! </div>
-    )
+function JoinedGroups() {
+  return <div> Joined! </div>;
 }
 
-export default JoinedGroups
+export default JoinedGroups;
