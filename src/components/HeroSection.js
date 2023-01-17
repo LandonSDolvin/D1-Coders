@@ -11,17 +11,17 @@ function HeroSection() {
       <div className="hero-btns">
         <Button
           className="btns"
-          buttonStyle="btn--outline"
-          buttonSize="btn--large"
-        >
-          ABOUT
-        </Button>
-        <Button
-          className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
           HAVE A CODE?
+        </Button>
+        <Button
+          className="btns"
+          buttonStyle="btn--outline"
+          buttonSize="btn--large"
+        >
+          ABOUT
         </Button>
       </div>
     </div>
