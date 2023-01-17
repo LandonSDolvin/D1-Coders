@@ -11,15 +11,19 @@
   object-fit: contain;
 }
 
+.hero::before {
+  opacity: 0.2;
+}
+
 .hero-container > h1 {
-  color: #fff;
+  color: #000957;
   font-size: 100px;
   margin-top: -100px;
 }
 
 .hero-container > p {
   margin-top: 8px;
-  color: #fff;
+  color: #000957;
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -62,4 +66,8 @@
   .btn {
     width: 100%;
   }
+}
+
+.prospect {
+  color: #000957;
 }
