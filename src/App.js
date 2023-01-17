@@ -1,8 +1,9 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
 import Home from "./components/pages/Home";
+import JoinedGroups from "./components/pages/JoinedGroups";
+import "./App.css";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Router>
         <Navbar />
         <Home path="/" />
+        <JoinedGroups path="/joinedgroups" />
       </Router>
     </>
   );

@@ -2,7 +2,9 @@ import React from "react";
 
 function JoinedGroups(){
     return(
-        <div> Joined! </div>
+        <>
+            <div>Joined!</div>
+        </>
     )
 }
 
