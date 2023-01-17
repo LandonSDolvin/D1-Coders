@@ -8,9 +8,7 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Routes>
-          <Route path="/" exact />
-        </Routes>
+        <Home path="/" />
       </Router>
     </>
   );
